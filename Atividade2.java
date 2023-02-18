@@ -31,9 +31,9 @@ public class Atividade2 {
 		System.out.println("--------------Calculadora--------------" + '\n');
 		
 		System.out.println("Informa um número:");
-		double num1 = entrada.nextDouble();
+		int num1 = entrada.nextInt();
 		System.out.println("Informa outro número:");
-		double num2 = entrada.nextDouble();
+		int num2 = entrada.nextInt();
 		System.out.println("Qual operação que você quer calcular?");
 		String calculadora = entrada.next();
 		
@@ -75,10 +75,10 @@ public class Atividade2 {
 		
 		
 		if (ParImpar %2 == 0) {
-			System.out.print("Então é par");
+			System.out.println("Então é par");
 		}
 			else {
-				System.out.print("Então é impar");
+				System.out.println("Então é impar");
 			}
 		entrada.close();	
 	}
